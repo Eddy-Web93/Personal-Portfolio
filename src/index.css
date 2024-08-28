@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+:root{
+  --bg-cr- : linear-gradient(to left,#025272,  #000);
+  /* --bg-cr- : #000; */
+  --tx-cr- : #ffffff;
+  --stx-cr- : #bbbbbbfa;
+  --gr-cr- : #757777;
+  --lgr-cr- : #cccccc;
+  --h1-cr- : #006aff;
+  --st-cr- : #00b7ff;
+  --dst-cr- : #00709cf;
+  --sm-cr- : #292929;
+  --bk-cr- : #000000d3;
+  --tp-cr- : #c3d9f71f;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Playfair Display", serif;
+  color: var(--tx-cr-);
+  
+}
+::-webkit-scrollbar{
+  display: none;
+}
+

@@ -1,0 +1,38 @@
+.bg{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(to bottom, var(--bk-cr-), var(--tp-cr-));
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.container-1{
+    width: 85%;
+    height: auto;
+    background: var(--bg-cr-);
+    overflow-y: scroll;
+}
+
+@media (max-width: 900px) {
+    .container-1{
+        width: 100%;
+        border-radius: 0;
+    }
+    .container{
+        padding-top: 0;
+    }
+}

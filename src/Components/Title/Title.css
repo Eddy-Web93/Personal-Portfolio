@@ -1,0 +1,42 @@
+.common-title{
+    width: 100%;
+    height: fit-content;
+    max-height: 30vh;
+    border-bottom: 2px solid var(--tx-cr-);
+    border-top: 2px solid var(--tx-cr-);
+    background: var(--dst-cr-);
+    padding: 30px;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.head{
+    width: 100%;
+    height: fit-content;
+    font-size: 25px;
+    font-weight: 1000;
+}
+.head h1{
+    text-transform: capitalize;
+}
+.short{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: fit-content;
+    height: fit-content;
+}
+.short p{
+    text-transform: capitalize;
+    color: var(--gr-cr-);
+}
+@media (max-width: 900px) {
+    .short{
+        position: absolute;
+        top: 75%;
+        left: 7%;
+        width: 100%;
+        height: fit-content;
+    }
+}
